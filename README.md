@@ -1,5 +1,7 @@
 # python-project
+
 🎓 Student Performance Prediction System
+
 📌 Overview
 
 This project is a Student Performance Prediction System built using Python and Machine Learning. It predicts a student's total marks, grade, and estimated CGPA based on input subject marks or grade.
@@ -8,18 +10,23 @@ The system uses:
 
 Linear Regression → to predict total marks
 Logistic Regression → to predict grade
+
 🚀 Features
+
 Predict total marks from subject inputs
 Predict grade (A/B/C/D/F)
 Estimate CGPA based on predicted total
 Grade-based performance estimation
 Simple and interactive console interface
+
 🛠️ Technologies Used
-Python 🐍
+
+Python 
 Pandas
 NumPy
 Matplotlib
 Scikit-learn
+
 📂 Project Structure
 📁 Student-Performance-Prediction
 │── data.csv
@@ -37,6 +44,7 @@ Total marks
 Grade
 
 ⚙️ How It Works
+
 1. Data Preprocessing
 Load dataset
 Drop irrelevant columns
@@ -50,6 +58,7 @@ User can choose:
 "grade" → Enter grade
 
 ▶️ Usage
+
 Run the program:
 python main.py
 Option 1: Marks Prediction
@@ -69,11 +78,13 @@ Estimated Total: 460.00
 Estimated CGPA: 9.4
 
 📈 Visualization
+
 The project includes a scatter plot:
 plt.scatter(df['Maths'], df['Computer_Science'])
 This helps analyze the relationship between subjects.
 
 ❗ Common Errors
+
 Error: NameError: name 'X' is not defined
 
 ✔ Fix: Make sure you define X before using it:
@@ -81,11 +92,13 @@ Error: NameError: name 'X' is not defined
 X = df.drop(['Total', 'Grade'], axis=1)
 
 🔮 Future Improvements
+
 Add GUI using Tkinter / Web App
 Integrate real-time student database
 Improve model accuracy
 Add more subjects and features
 
 👨‍💻 Author
+
 Mariya Suthan
 AI & Data Science Student
